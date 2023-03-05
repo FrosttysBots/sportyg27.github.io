@@ -230,3 +230,13 @@ nav a:hover{
         height: 100%;
     }
 }
+
+@media (max-width: 767px) {
+    .back-video {
+        display: none;
+    }
+    body {
+        background: url('background-video.jpg');
+        background-size: cover;
+    }
+}
